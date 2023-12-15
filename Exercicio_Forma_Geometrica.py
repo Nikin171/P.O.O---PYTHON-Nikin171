@@ -48,7 +48,7 @@ else:
     print("A área do retangulo é:", ret.area)
     print("O perímetro do retangulo é:", ret.perimetro)
 '''
-#Calcular area do circulo com função area e funcao diametro:
+#Calcular area do circulo com função area, perimetro e diametro:
 '''
 from math import pi
 
@@ -76,7 +76,7 @@ class Circulo():
 c = Circulo(raio)
 print(c.diametro)
 '''
-#Calcular area do triangulo com função area e funcao diametro em python:
+#Calcular area do triangulo com função base e altura:
 '''
 class triangulo():
   def __init__(self, base, altura, lado_a=2, lado_b=3, lado_c=5, angulo_ab=90, angulo_ac=30, angulo_bc=60):
